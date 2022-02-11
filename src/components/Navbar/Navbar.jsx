@@ -17,7 +17,7 @@ const Navbar = () => {
         <li><a href="#home">Aktuelles</a></li>
         <li><a href="#home">Kontakt</a></li>
         <div id="app__navbar-line"></div>
-        <img id="app__navbar-facebook" src="https://img.icons8.com/color/48/000000/facebook-new.png" alt="Facebook Logo"/>
+        <a href="https://www.facebook.com/profile.php?id=100063577450034"><img id="app__navbar-facebook" src="https://img.icons8.com/color/48/000000/facebook-new.png" alt="Facebook Logo"/></a>
       </ul>
 
       <div className="app__navbar-smallscreen">
@@ -33,6 +33,7 @@ const Navbar = () => {
               <li><a href="#about" onClick={() => setToggleMenu(false)}>Speisekarte</a></li>
               <li><a href="#menu" onClick={() => setToggleMenu(false)}>Aktuelles</a></li>
               <li><a href="#awards" onClick={() => setToggleMenu(false)}>Kontakt</a></li>
+              <a href="https://www.facebook.com/profile.php?id=100063577450034"><img id="app__navbar-smallscreen_facebook" src="https://img.icons8.com/color/48/000000/facebook-new.png" alt="Facebook Logo"/></a>
             </ul>
           </div>
         )}

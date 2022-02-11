@@ -117,6 +117,10 @@
     right: 20px;
 }
 
+#app__navbar-smallscreen_facebook {
+    margin-top: 20px;
+}
+
 @media screen and (min-width: 2000px) {
     .app__navbar-logo img {
         width: 210px;
