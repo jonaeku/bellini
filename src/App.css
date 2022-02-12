@@ -55,6 +55,14 @@
   cursor: pointer;
 }
 
+.app__hr {
+  width: 80px;
+  border-style: none;
+  background-color: black;
+  height: 2px; 
+  margin-bottom: 40px;   
+}
+
 @media screen and (max-width: 1150px) {
   .app__wrapper {
     flex-direction: column;
