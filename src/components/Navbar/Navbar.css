@@ -12,6 +12,7 @@
 
 .app__navbar-logo img {
     width: 220px;
+    margin-top: 10px;
 }
 
 .app__navbar-links {
