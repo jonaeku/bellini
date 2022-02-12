@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@200;300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Marcellus+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lusitana:wght@400;700&display=swap');
 
 
 body {
@@ -17,7 +19,12 @@ code {
 
 * {
   --navbar-font: 'Lexend', sans-serif;
+  --sub-font: 'Marcellus SC', serif;;
+  --font: 'Lusitana', serif;;
   
   --primary-color: #E3D4BF;
   --secondary-color: #93A8A3;
+  --red-color: #C32E2E;
+
+  scroll-behavior: smooth;
 }
