@@ -3,7 +3,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
 }
 
 .app__wrapper_info {
@@ -32,7 +31,7 @@
 }
 
 .app__wrapper_img img {
-  width: 60%;
+  width: 70%;
 }
 
 .section__padding {
@@ -71,6 +70,10 @@
 
   .app__wrapper_img img {
     width: 100%;
+  }
+
+  .section__padding {
+    padding: 2rem 2rem;
   }
 }
 

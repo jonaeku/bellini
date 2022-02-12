@@ -1,13 +1,13 @@
 .app__header {
     background-color: var(--primary-color);
-    min-height: 90vh;
+    min-height: 85vh;
 }
 
 .app__header-hr {
     width: 80px;
     border-style: none;
     background-color: black;
-    height: 2px;
+    height: 2px;    
     margin-left: 0px;
 }
 
