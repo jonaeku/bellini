@@ -1,0 +1,83 @@
+.margin {
+	margin: 0 0;
+}
+
+.parallax {
+	background: url("/src/assets/OutsideBig.png") no-repeat fixed 100%;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.parallax-inner {
+    padding-top: 8%;
+	padding-bottom: 8%;
+}
+
+.app__open-data {
+    background-color: var(--primary-color);
+    width: 700px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.app__open-data h1 {
+    font-family: var(--font);
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.app__open-data h2 {
+    font-family: var(--font);
+    font-weight: 400;
+    font-size: 33px;
+}
+
+br {
+  content: "";
+  margin: 1em;
+  display: block;
+  font-size: 4%;
+}
+
+@media screen and (max-width: 850px) {
+    .app__open-data {
+        width: 450px;
+        height: 250px;
+    }
+    
+    .app__open-data h1 {
+        font-family: var(--font);
+        font-weight: 400;
+        font-size: 25px;
+    }
+    
+    .app__open-data h2 {
+        font-family: var(--font);
+        font-weight: 400;
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .app__open-data {
+        width: 300px;
+        height: 200px;
+    }
+    
+    .app__open-data h1 {
+        font-family: var(--font);
+        font-weight: 400;
+        font-size: 20px;
+    }
+    
+    .app__open-data h2 {
+        font-family: var(--font);
+        font-weight: 400;
+        font-size: 16px;
+    }
+}

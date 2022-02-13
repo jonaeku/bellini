@@ -27,4 +27,6 @@ code {
   --red-color: #C32E2E;
 
   scroll-behavior: smooth;
+
+  max-width: 1920px; 
 }
