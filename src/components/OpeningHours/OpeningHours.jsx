@@ -1,23 +1,23 @@
-import "./OpeningHours.css"
+import { Parallax } from "react-parallax";
+import "./OpeningHours.css";
 
-const OpeningHours = () => {
-  return (
-    <div>
-      <div class="margin"></div>
+import Img from "../../assets/OutsideBig.png";
 
-      <section class="parallax">
-        <div class="parallax-inner">
-          <div className="app__open-data">
-              <h1>ÖFFNUNGSZEITEN</h1> <br />
-              <h2>Montag - Sonntag</h2> <br />
-              <h2>9:30 - 20:00</h2>
-          </div>
-        </div>
-      </section>
-
-      <div class="margin"></div>
+const OpeningHours = () => (
+  <Parallax
+    className="app__openingHours-img"
+    bgImage={Img}
+    bgImageAlt="Bellini"
+    strength={200}
+  >
+    <div className="lol">
+      <div className="app__openingHours-data">
+        <h1>ÖFFNUNGSZEITEN</h1>
+        <h2>Montag - Sonntag</h2>
+        <h2>9:30 - 20:00</h2>
+      </div>
     </div>
-  );
-};
+  </Parallax>
+);
 
 export default OpeningHours;

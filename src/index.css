@@ -4,7 +4,9 @@
 
 
 body {
-  margin: 0;
+  max-width: 1920px;
+  margin: 0 auto !important;
+  float: none !important;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -24,6 +26,7 @@ code {
   
   --primary-color: #E3D4BF;
   --secondary-color: #93A8A3;
+  --third-color: #D79A60;
   --red-color: #C32E2E;
 
   scroll-behavior: smooth;
