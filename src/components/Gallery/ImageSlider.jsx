@@ -19,22 +19,24 @@ const ImageSlider = ({ slides }) => {
   }
 
   return (
-    <section className="slider">
+    <div className="slider">
       <IoIosArrowBack className="left-arrow" onClick={prevSlide} />
       <IoIosArrowForward className="right-arrow" onClick={nextSlide} />
-      {Images.map((slide, index) => {
-        return (
-          <div
-            className={index === current ? "slide active" : "slide"}
-            key={index}
-          >
-            {index === current && (
-              <img src={slide.image} alt="Image" className="image" />
-            )}
-          </div>
-        );
-      })}
-    </section>
+      <div>
+        {Images.map((slide, index) => {
+          return (
+            <div
+              className={index === current ? "slide active" : "slide"}
+              key={index}
+            >
+              {index === current && (
+                <img src={slide.image} alt="Image" className="image" />
+              )}
+            </div>
+          );
+        })}
+      </div>
+    </div>
   );
 };
 

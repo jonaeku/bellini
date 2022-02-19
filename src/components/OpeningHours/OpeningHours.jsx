@@ -8,9 +8,9 @@ const OpeningHours = () => (
     className="app__openingHours-img"
     bgImage={Img}
     bgImageAlt="Bellini"
-    strength={200}
+    strength={250}
   >
-    <div className="lol">
+    <div className="app__openingHours-wrapper">
       <div className="app__openingHours-data">
         <h1>ÖFFNUNGSZEITEN</h1>
         <h2>Montag - Sonntag</h2>

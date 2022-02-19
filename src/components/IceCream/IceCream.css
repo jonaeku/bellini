@@ -10,41 +10,15 @@
     padding: 0px;
 }
 
-.app__iceCream-h1 {
-    font-family: var(--font);
-    font-weight: 400;
-    line-height: 90px;
-    font-size: 40px;
-
-    margin-top: 25px;
-    margin-bottom: 10px;
-}
-
 .app__iceCream-img {
     width: 100%;
     margin-bottom: 50px;
 }
 
-@media screen and (min-width: 2000px) {
-    .app__iceCream-h1 {
-        font-size: 180px;
-        line-height: 210px;
-    }
-}
-
 @media screen and (max-width: 1150px) {
-    .app__iceCream-h1 {
-        font-size: 40px;
-    }
 }
 
 @media screen and (max-width: 650px) {
-    .app__iceCream-h1 {
-        font-size: 20px;
-        line-height: 87px;
-        margin-top: 0px;
-    }
-
     .app__iceCream-img {
         width: 100%;
         margin-bottom: 10px;

@@ -1,4 +1,5 @@
 import "./App.css";
+import AboutUs from "./components/AboutUs/AboutUs";
 import CoffeeCake from "./components/CoffeeCake/CoffeeCake";
 import Gallery from "./components/Gallery/Gallery";
 import IceCream from "./components/IceCream/IceCream";
@@ -13,8 +14,9 @@ function App() {
       <StartPage />
       <IceCream />
       <OpeningHours />
-      <Gallery />
       <CoffeeCake />
+      <AboutUs />
+      <Gallery />
     </div>
   );
 }
