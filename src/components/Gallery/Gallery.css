@@ -71,12 +71,12 @@
   .right-arrow {
     position: absolute;
     bottom: 50%;
-    right: 0.2%;
+    right: 0px;
   }
   .left-arrow {
     position: absolute;
     bottom: 50%;
-    left: 0.2%;
+    left: 0px;
   }
   .slider {
     height: 500px;

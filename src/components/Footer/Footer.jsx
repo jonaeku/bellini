@@ -2,6 +2,8 @@ import "./Footer.css";
 
 const Footer = () => {
   return (
+    <div className="app__footer-out">
+    <hr className="app__hr-footer" />
     <div className="app__footer-wrapper">
       <div className="app__footer-container">
         <p>Bellini <br /> Frantzplatz <br /> 67487 Maikammer</p>
@@ -23,6 +25,7 @@ const Footer = () => {
           </div>
         </p>
       </div>
+    </div>
     </div>
   );
 };

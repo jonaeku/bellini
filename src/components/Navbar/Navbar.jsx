@@ -55,9 +55,9 @@ const Navbar = () => {
               onClick={() => setToggleMenu(false)}
             />
             <ul className="app__navbar-mobile_links">
-              <Link to={"/"} onClick={() => setToggleMenu(false)}>
+              <HashLink to={"/#"} onClick={() => setToggleMenu(false)}>
                 <li>Eiscafé</li>
-              </Link>
+              </HashLink>
               <Link to={"/"} onClick={() => setToggleMenu(false)}>
                 <li>Speisekarte</li>
               </Link>

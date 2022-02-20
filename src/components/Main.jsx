@@ -9,11 +9,15 @@ import StartPage from "./StartPage/StartPage";
 const Main = () => {
   return (
     <>
-      <StartPage />
+      <div id="">
+        <StartPage />
+      </div>
       <IceCream />
       <OpeningHours />
       <CoffeeCake />
-      <AboutUs />
+      <div id="aboutUs">
+        <AboutUs />
+      </div>
       <div id="galerie">
         <Gallery />
       </div>
