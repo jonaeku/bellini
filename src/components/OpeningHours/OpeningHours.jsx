@@ -8,7 +8,7 @@ const OpeningHours = () => (
     className="app__openingHours-img"
     bgImage={Img}
     bgImageAlt="Bellini"
-    strength={250}
+    strength={500}
   >
     <div className="app__openingHours-wrapper">
       <div className="app__openingHours-data">
