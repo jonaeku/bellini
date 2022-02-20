@@ -9,19 +9,20 @@ import Navbar from "./components/Navbar/Navbar";
 import OpeningHours from "./components/OpeningHours/OpeningHours";
 import StartPage from "./components/StartPage/StartPage";
 
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Main from "./components/Main";
+
 function App() {
   return (
-    <div className="App">
-      <Navbar />
-      <StartPage />
-      <IceCream />
-      <OpeningHours />
-      <CoffeeCake />
-      <AboutUs />
-      <Gallery />
-      <Contact />
-      <Footer />
-    </div>
+    <Router>
+      <div className="App">
+        <Navbar />
+        <Routes>
+          <Route path="/" exact element={<Main />} />
+        </Routes>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 

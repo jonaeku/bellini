@@ -2,7 +2,7 @@ import "./Contact.css";
 
 const Contact = () => {
   return (
-    <div className="app__contact section__padding">
+    <div id="contact" className="app__contact section__padding">
       <h1 className="app__h1">KONTAKT</h1>
       <hr className="app__hr" />
       <div className="app__wrapper">
