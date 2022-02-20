@@ -10,12 +10,15 @@
 }
 
 .app__contact-info {
-  width: 40%;
+  width: 40%;  
 }
 
 .app__contact-info h2 {
   font-family: var(--font);
   line-height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (max-width: 1450px) {
