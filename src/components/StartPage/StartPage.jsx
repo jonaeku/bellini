@@ -19,7 +19,7 @@ const StartPage = () => {
         </h1>
         <HashLink to={"/#aboutUs"}>
           <button type="button" className="custom__button">
-            Über Uns
+            Über uns
           </button>
         </HashLink>
       </div>

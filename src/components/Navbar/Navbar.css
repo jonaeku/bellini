@@ -15,7 +15,7 @@
 
 .app__navbar-logo img {
   width: 320px;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 .app__navbar-links {
@@ -81,7 +81,7 @@
   cursor: pointer;
 
   position: absolute;
-  top: 20px;
+  top: 30px;
   right: 20px;
 }
 
@@ -116,7 +116,7 @@
   cursor: pointer;
 
   position: fixed;
-  top: 20px;
+  top: 30px;
   right: 20px;
 }
 

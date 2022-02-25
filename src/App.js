@@ -1,16 +1,14 @@
 import "./App.css";
-import AboutUs from "./components/AboutUs/AboutUs";
-import CoffeeCake from "./components/CoffeeCake/CoffeeCake";
-import Contact from "./components/Contact.jsx/Contact";
 import Footer from "./components/Footer/Footer";
-import Gallery from "./components/Gallery/Gallery";
-import IceCream from "./components/IceCream/IceCream";
 import Navbar from "./components/Navbar/Navbar";
-import OpeningHours from "./components/OpeningHours/OpeningHours";
-import StartPage from "./components/StartPage/StartPage";
 
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Main from "./components/Main";
+import WarmFood from "./components/Food/WarmFood";
+import IceFood from "./components/Food/IceFood";
+import DrinkFood from "./components/Food/DrinkFood";
+import Imprint from "./components/ImpressumDatenschutz/Imprint";
+import Datenschutz from "./components/ImpressumDatenschutz/Datenschutz";
 
 function App() {
   return (
@@ -19,6 +17,11 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" exact element={<Main />} />
+          <Route path="/food/eiskarte" exact element={<IceFood />} />
+          <Route path="/food/speisekarte" exact element={<WarmFood />} />
+          <Route path="/food/getraenkekarte" exact element={<DrinkFood />} />
+          <Route path="/impressum" exact element={<Imprint/>} />
+          <Route path="/datenschutz" exact element={<Datenschutz/>} />
         </Routes>
         <Footer />
       </div>

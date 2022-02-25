@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Footer.css";
 
 const Footer = () => {
@@ -19,8 +20,8 @@ const Footer = () => {
 
         <p>
           <div className="right">
-            <a href="/">Impressum</a>
-            <a href="/">Datenschutz</a>
+            <Link to={"/impressum"}> Impressum </Link>
+            <Link to={"/datenschutz"}> Datenschutz </Link>
             <a href="mailto:info@cafebellini.de">info@cafebellini.de</a>
           </div>
         </p>

@@ -1,78 +1,77 @@
 .margin {
-	margin: 0 0;
+  margin: 0 0;
 }
 
-.app__openingHours-img {
-    position: relative;
-    height: 600px;
-    z-index: -1;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+.app__openingHours-bg {
+  position: relative;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
 }
 
 .app__openingHours-wrapper {
-    height: 600px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .app__openingHours-data {
-    background-color: var(--third-color);
-    height: 350px;
-    width: 600px;
+  background-color: var(--third-color);
+  height: 350px;
+  width: 600px;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 
-    line-height: 50px;
+  line-height: 50px;
 }
 
 .app__openingHours-data h1 {
-    font-family: var(--font);
-    font-weight: 400;
+  font-family: var(--font);
+  font-weight: 400;
 }
 
 .app__openingHours-data h2 {
-    font-family: var(--font);
-    font-weight: 400;
+  font-family: var(--font);
+  font-weight: 400;
 }
 
 @media screen and (max-width: 850px) {
-    .app__openingHours-img {
-        position: relative;
-        height: 400px;
-    }
+  .app__openingHours-img {
+    position: relative;
+    height: 400px;
+  }
 
-    .app__openingHours-data {
-        height: 250px;
-        width: 450px;
-        line-height: 20px;
-    }
+  .app__openingHours-data {
+    height: 250px;
+    width: 450px;
+    line-height: 20px;
+  }
 }
 
 @media screen and (max-width: 650px) {
-    .app__openingHours-img {
-        position: relative;
-        height: 250px;
-    }
+  .app__openingHours-img {
+    position: relative;
+    height: 300px;
+  }
 
-    .app__openingHours-data {
-        height: 150px;
-        width: 250px;
-        line-height: 20px;
-    }
+  .app__openingHours-data {
+    height: 150px;
+    width: 250px;
+    line-height: 20px;
+  }
 
-    .app__openingHours-data h1 {
-        font-size: 20px;
-    }
-    
-    .app__openingHours-data h2 {
-        font-size: 16px;
-    }
+  .app__openingHours-data h1 {
+    font-size: 20px;
+  }
+
+  .app__openingHours-data h2 {
+    font-size: 16px;
+  }
 }

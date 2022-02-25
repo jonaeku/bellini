@@ -13,7 +13,7 @@ const Navbar = () => {
         <Link to={"/"}>
           <li>Eiscafé</li>
         </Link>
-        <Link to={"/"}>
+        <Link to={"/food/eiskarte"}>
           <li>Speisekarte</li>
         </Link>
         <Link to={"/"}>
@@ -38,9 +38,11 @@ const Navbar = () => {
       </ul>
 
       <div className="app__navbar-mobile">
-        <div className="app__navbar-logo">
-          <img src={require("../../assets/logo.png")} alt="Logo" />
-        </div>
+        <Link to={"/"}>
+          <div className="app__navbar-logo">
+            <img src={require("../../assets/logo.png")} alt="Logo" />
+          </div>
+        </Link>
         <CgMenu
           className="app__navbar-mobile-burger"
           color="black"
@@ -58,7 +60,7 @@ const Navbar = () => {
               <HashLink to={"/#"} onClick={() => setToggleMenu(false)}>
                 <li>Eiscafé</li>
               </HashLink>
-              <Link to={"/"} onClick={() => setToggleMenu(false)}>
+              <Link to={"/food/eiskarte"} onClick={() => setToggleMenu(false)}>
                 <li>Speisekarte</li>
               </Link>
               <HashLink to={"/#galerie"} onClick={() => setToggleMenu(false)}>

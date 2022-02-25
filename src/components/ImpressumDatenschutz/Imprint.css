@@ -1,0 +1,14 @@
+.app__imprint-wrapper {
+    background-color: var(--primary-color);
+    font-family: var(--navbar-font);
+    margin: 0px;
+    padding: 20px;
+    max-width: 100%;
+}
+
+.app__imprint-wrapper h1 {
+    font-family: var(--navbar-font);
+}
+.app__imprint-wrapper h2 {
+    font-family: var(--navbar-font);
+}

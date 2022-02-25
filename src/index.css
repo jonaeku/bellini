@@ -30,6 +30,10 @@ code {
   --red-color: #C32E2E;
 
   scroll-behavior: smooth;
+}
 
-  max-width: 1920px; 
+body {
+  max-width: 2560px;
+  margin: 0 auto !important;
+  float: none !important;
 }
