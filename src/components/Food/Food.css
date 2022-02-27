@@ -6,6 +6,30 @@
   grid-template-columns: 50% 50%;
 }
 
+.test {
+  background-color: aquamarine;
+  padding: 5px 8px;
+  box-shadow: 0px 0px 11px rgb(146, 146, 146);
+  height: 30px;
+  width: 25px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.testt {
+  background-color: black;
+  padding: 5px 8px;
+  box-shadow: 0px 0px 11px rgb(146, 146, 146);
+  height: 30px;
+  width: 25px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .food-image {
   width: 100%;
 }
@@ -31,7 +55,13 @@
 
 .s {
   padding: 5px 8px;
-  box-shadow: 0px 0px 10px rgb(121, 121, 121);
+  box-shadow: 0px 0px 11px rgb(146, 146, 146);
+  height: 30px;
+  width: 25px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (max-width: 670px) {
@@ -40,6 +70,6 @@
   }
   .app__food-nav ul {
     padding: 0px 0px ;
-    padding-top: 50px;
+    padding-top: 30px;
   }
 }

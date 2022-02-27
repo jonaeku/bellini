@@ -9,7 +9,7 @@ const AboutUs = () => {
         <div className="app__wrapper_img app__aboutUs-img">
           <img src={require("../../assets/AboutUs.png")} alt="header_img" />
         </div>
-        <div className="app__wrapper_info">
+        <div className="app__wrapper_info" style={{backgroundColor: "#D79A60"}}>
           <h1 className="app__aboutUs-h1">
             <p className="app__aboutUs-Welcome">
               {" "}
@@ -19,9 +19,9 @@ const AboutUs = () => {
                 sind seit März 2011 mit exklusiver Eleganz und einem Hauch ins Mediterrane für Sie da.
                 Auf unserer schönen Sonnenterrasse können Sie in aller Ruhe ihre Seele baumeln lassen und unsere Eis-, Kaffee-und Weinspezialitäten genießen.
                 Und sollte das Wetter mal nicht mitspielen, in unserem beschwingt lebendigen Innenbereich bietet sich genügend Platz!
-                In unserem familiengeführtem Eiscafé  wird das Eis ausschließlich aus frischen Naturprodukten hergestellt. Unser Fruchteis ist laktosefrei.
+                In unserem familiengeführtem Eiscafé  wird das Eis ausschließlich aus frischen Naturprodukten hergestellt. Unser Fruchteis ist laktosefrei und glutenfrei.
                 Sie können aus vielen italienischen Kaffeespezialitäten wählen, vom Espresso bis hin zum Latte Macchiato, mit dem Gewissen "Etwas".
-                <br /> Außerdem haben wir für Sie leckere italienische Pizza und Pasta. 🍕
+                <br /> Außerdem haben wir für Sie leckere Snacks und hausgemachte Pizza 🍕 
               </span>
             </p>
           </h1>

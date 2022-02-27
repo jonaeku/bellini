@@ -13,6 +13,8 @@
 .app__iceCream-img {
     width: 100%;
     margin-bottom: 50px;
+    max-height: 400px;
+    object-fit: contain;
 }
 
 @media screen and (max-width: 1150px) {

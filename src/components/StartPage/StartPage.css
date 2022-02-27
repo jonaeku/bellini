@@ -1,6 +1,11 @@
 .app__header {
-    background-color: var(--primary-color);
+    background-image: url("../../assets/front.png");
     min-height: 85vh;
+    background-size: cover;
+    background-position: bottom;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .app__header-hr {
@@ -9,6 +14,13 @@
     background-color: black;
     height: 2px;    
     margin-left: 0px;
+}
+
+.app__wrapper_info {
+     background-color: #e3d4bf;
+     padding: 60px 30px;
+     height: 300px;
+     border-radius: 3px;
 }
 
 .app__header-h1 {
@@ -45,12 +57,23 @@ h2 {
 
 @media screen and (max-width: 1150px) {
     .app__header {height: auto;}
+    .app__wrapper_info {
+        padding: 10px;
+        max-height: 450px;
+    }
     .app__header-h1 {
         font-size: 90px;
     }
 }
 
 @media screen and (max-width: 650px) {
+    .app__header {
+        min-height: 75vh;
+    }
+    .app__wrapper_info {
+        max-height: 400px;
+        padding: 18px;
+    }
     .app__header-h1 {
         font-size: 70px;
         line-height: 87px;
@@ -63,7 +86,11 @@ h2 {
 
 @media screen and (max-width: 450px) {
     .app__header-h1 {
+        font-size: 35px;
+        line-height: 45px;
+        padding-bottom: 10px;
+    }
+    .app__header-Welcome {
         font-size: 50px;
-        line-height: 70px;
     }
 }

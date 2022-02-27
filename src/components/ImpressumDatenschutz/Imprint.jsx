@@ -1,4 +1,4 @@
-import "./Imprint.css"
+import "./Imprint.css";
 
 const Imprint = () => {
   return (
@@ -33,6 +33,10 @@ const Imprint = () => {
         Umsatzsteuergesetz:
         <br />
         DE275935336
+      </p>
+      <p>
+        Design & Umsetzung:{" "}
+        <a href="https://­www.ionae.de/">Jona Kuhn - ionae.de</a>
       </p>
 
       <h2>EU-Streitschlichtung</h2>

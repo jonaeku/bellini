@@ -63,8 +63,16 @@
   margin-bottom: 30px;
 }
 
+.switch-wrapper {
+  position: relative;
+}
+
+.switch-wrapper > div {
+  position: absolute;
+}
+
 .app__h1 {
-  font-family: var(--font);
+  font-family: var(--navbar-font);
   font-weight: 400;
   line-height: 90px;
   font-size: 40px;

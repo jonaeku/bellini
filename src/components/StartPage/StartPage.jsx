@@ -24,9 +24,9 @@ const StartPage = () => {
         </HashLink>
       </div>
 
-      <div className="app__wrapper_img">
+      {/* <div className="app__wrapper_img">
         <img src={require("../../assets/icecream.png")} alt="header_img" />
-      </div>
+      </div> */}
     </div>
   );
 };

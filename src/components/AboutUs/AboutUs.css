@@ -1,8 +1,12 @@
 .app__aboutUs {
   background-color: var(--third-color);
-  min-height: 85vh;
+  /* min-height: 85vh; */
   padding-bottom: 20px;
   padding-top: 1px;
+}
+
+.as {
+  background-color: none;
 }
 
 .app__aboutUs-img {
@@ -33,10 +37,10 @@ h2 {
   width: 80%;
 }
 
-@media screen and (max-width: 1450px) {
+@media screen and (max-width: 1750px) {
   .app__aboutUs-h1 {
-    font-size: 25px;
-    line-height: 25px;
+    font-size: 20px;
+    line-height: 18px;
   }
   .app__aboutUs-Welcome {
     font-size: 42px;

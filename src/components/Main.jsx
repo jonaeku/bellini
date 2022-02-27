@@ -1,6 +1,6 @@
 import AboutUs from "./AboutUs/AboutUs";
 import CoffeeCake from "./CoffeeCake/CoffeeCake";
-import Contact from "./Contact.jsx/Contact";
+import Contact from "./Contact/Contact";
 import Gallery from "./Gallery/Gallery";
 import IceCream from "./IceCream/IceCream";
 import OpeningHours from "./OpeningHours/OpeningHours";

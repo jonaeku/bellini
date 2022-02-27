@@ -1,11 +1,8 @@
 import "./OpeningHours.css";
 
-import Img from "../../assets/OutsideBig.png";
-
 const OpeningHours = () => (
   <div
-    className="app__openingHours-bg app__openingHours-wrapper"
-    style={{ backgroundImage: `url(${Img})`, height: "500px" || undefined }}
+    className="app__openingHours-wrapper app__openingHours-bg"
   >
     <div className="app__openingHours-data">
       <h1>ÖFFNUNGSZEITEN</h1>

@@ -14,11 +14,12 @@
 }
 
 .app__contact-info h2 {
-  font-family: var(--font);
+  font-family: var(--navbar-font);
   line-height: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-weight: 400;
 }
 
 @media screen and (max-width: 1450px) {
