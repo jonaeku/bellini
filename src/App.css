@@ -52,7 +52,7 @@
   border: none;
   outline: none;
   cursor: pointer;
-  border-radius: 2px;
+  border-radius: 25px;
 }
 
 .app__hr {

@@ -5,17 +5,17 @@ const Contact = () => {
     <div id="contact" className="app__contact section__padding">
       <h1 className="app__h1">KONTAKT</h1>
       <hr className="app__hr" />
-      <div className="app__wrapper">
+      <div className="app__contact-wrapper">
         <div className="app__contact-info">
-          <h2>
+          <h2 className="app__contact-text">
             Eiscafé Bellini <br />
             Familie Vitanza <br />
             Frantzplatz <br />
             67487 Maikammer <br /> <br />
-            Telefon: 06321 6790131
+            <a href={"tel:063216790131"}>Telefon: 06321 6790131</a>
           </h2>
         </div>
-        <div className="app__wrapper_info">
+        <div>
           <iframe
             className="app__contact-card"
             frameborder="0"

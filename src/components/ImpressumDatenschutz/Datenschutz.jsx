@@ -3,6 +3,7 @@ import "./Imprint.css";
 const Datenschutz = () => {
   return (
     <div className="app__imprint-wrapper">
+      {window.scrollTo(0, 0)}
       <h1>Datenschutzerklärung</h1>
       <p>
         Verantwortlicher im Sinne der Datenschutzgesetze, insbesondere der

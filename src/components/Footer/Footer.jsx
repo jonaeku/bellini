@@ -14,11 +14,11 @@ const Footer = () => {
         <img src={require("../../assets/logo.png")} alt="Logo" />
       </div>
       <div className="app__footer-container">
-        <p className="middle text">
+        <p className="middle text verticalCenter">
           Bleiben <br /> Sie <br /> gesund !
         </p>
 
-        <p>
+        <p className="verticalCenter">
           <div className="right">
             <Link to={"/impressum"}> Impressum </Link>
             <Link to={"/datenschutz"}> Datenschutz </Link>

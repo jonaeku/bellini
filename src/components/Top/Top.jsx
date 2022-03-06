@@ -8,7 +8,7 @@ function ScrollToTop(e) {
 const Top = () => {
   return (
     <button className="app__scrollUp" onClick={ScrollToTop}>
-      <IoIosArrowRoundUp className="app__scrollUp-icon" />
+      <IoIosArrowRoundUp strokeWidth={30} className="app__scrollUp-icon" />
     </button>
   );
 };

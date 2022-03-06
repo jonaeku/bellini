@@ -10,6 +10,7 @@ import DrinkFood from "./components/Food/DrinkFood";
 import Imprint from "./components/ImpressumDatenschutz/Imprint";
 import Datenschutz from "./components/ImpressumDatenschutz/Datenschutz";
 import Top from "./components/Top/Top";
+import CookieConsent from "react-cookie-consent";
 
 const cardSites = [];
 
@@ -17,11 +18,26 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <Navbar />  
+        <Navbar />
+        <CookieConsent
+          buttonText="✔️"
+          buttonStyle={{
+            color: "white",
+            fontSize: "15px",
+            backgroundColor: "#C32E2E",
+            borderRadius: "20px",
+          }}
+        >
+          Diese Webiste verwendet Cookies 🍪
+        </CookieConsent>
         <Top />
         <Routes>
           <Route path="/" exact element={<Main />} />
-          <Route path="/food/eiskarte" exact element={<IceFood props={cardSites} />} />
+          <Route
+            path="/food/eiskarte"
+            exact
+            element={<IceFood props={cardSites} />}
+          />
           <Route path="/food/speisekarte" exact element={<WarmFood />} />
           <Route path="/food/getraenkekarte" exact element={<DrinkFood />} />
           <Route path="/impressum" exact element={<Imprint />} />

@@ -3,6 +3,7 @@ import "./Imprint.css";
 const Imprint = () => {
   return (
     <div className="app__imprint-wrapper">
+      {window.scrollTo(0, 0)}
       <h1>Impressum</h1>
 
       <h2>Angaben gem&auml;&szlig; &sect; 5 TMG</h2>
@@ -27,6 +28,11 @@ const Imprint = () => {
         E-Mail: info@cafebellini.de
       </p>
 
+      <p>
+        Design & Umsetzung:{" "}
+        <a href="https://­www.ionae.de/">Jona Kuhn - ionae.de</a>
+      </p>
+
       <h2>Umsatzsteuer-ID</h2>
       <p>
         Umsatzsteuer-Identifikationsnummer gem&auml;&szlig; &sect; 27 a
@@ -34,11 +40,6 @@ const Imprint = () => {
         <br />
         DE275935336
       </p>
-      <p>
-        Design & Umsetzung:{" "}
-        <a href="https://­www.ionae.de/">Jona Kuhn - ionae.de</a>
-      </p>
-
       <h2>EU-Streitschlichtung</h2>
       <p>
         Die Europ&auml;ische Kommission stellt eine Plattform zur
