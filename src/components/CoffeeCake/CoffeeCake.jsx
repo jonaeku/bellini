@@ -8,7 +8,7 @@ return (
         <hr className="app__hr"/>
       </div>
       <div className="app__iceCream-img">
-        <img className="app__iceCream-img" src={require("../../assets/CoffeCake.png")} alt="header_img" />
+        <img className="app__iceCream-img" src={require("../../assets/CoffeCake.webp")} alt="header_img" />
       </div>
     </div>
   );

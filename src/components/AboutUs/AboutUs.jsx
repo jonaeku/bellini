@@ -7,7 +7,7 @@ const AboutUs = () => {
         <hr className="app__hr" />
       <div className="app__wrapper">
         <div className="app__wrapper_img app__aboutUs-img">
-          <img src={require("../../assets/AboutUs.png")} alt="header_img" />
+          <img src={require("../../assets/aboutUspic.png")} alt="header_img" />
         </div>
         <div className="app__wrapper_info" style={{backgroundColor: "#D79A60"}}>
           <h1 className="app__aboutUs-h1">

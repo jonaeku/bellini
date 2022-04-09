@@ -26,7 +26,11 @@ function App() {
             fontSize: "15px",
             backgroundColor: "#C32E2E",
             borderRadius: "20px",
+            marginRight: "15px",
+            marginLeft: "auto",
+            position: "relative",
           }}
+          contentStyle={{ flex: "1 0 100px"}}
         >
           Diese Webiste verwendet Cookies 🍪
         </CookieConsent>
@@ -42,6 +46,7 @@ function App() {
           <Route path="/food/getraenkekarte" exact element={<DrinkFood />} />
           <Route path="/impressum" exact element={<Imprint />} />
           <Route path="/datenschutz" exact element={<Datenschutz />} />
+          <Route path="/maikammer" element={<Main />} />
         </Routes>
         <Footer />
       </div>

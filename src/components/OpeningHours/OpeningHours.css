@@ -9,7 +9,7 @@
   background-size: cover;
   width: 100%;
   height: 100vh;
-  background-image: url("../../assets/eistheke.png");
+  background-image: url("../../assets/eistheke.webp");
 }
 
 .app__openingHours-wrapper {
@@ -45,7 +45,7 @@
 @media screen and (max-width: 1550px) {
   .app__openingHours-bg {
     height: 600px;
-    background-image: url("../../assets/eisthekeSmall.png");
+    background-image: url("../../assets/eisthekeSmall.webp");
     background-size: auto;
     /* background-position: top; */
   }
@@ -75,7 +75,8 @@
   }
   .app__openingHours-bg {
     height: 400px;
-    background-image: url("../../assets/eisthekeSmall.png");
+    max-width: 100%;
+    background-image: url("../../assets/test.png");
     background-size: auto;
     background-position: top;
     
