@@ -18,7 +18,7 @@ const Navbar = () => {
         </Link>
         <Link to={"/"}>
           <div className="app__navbar-logo">
-            <img src={require("../../assets/logo.png")} alt="Logo" />
+            <img src={require("../../assets/Logoo.png")} alt="Logo" />
           </div>
         </Link>
         <HashLink to={"/#galerie"}>
@@ -40,7 +40,7 @@ const Navbar = () => {
       <div className="app__navbar-mobile">
         <Link to={"/"}>
           <div className="app__navbar-logo">
-            <img src={require("../../assets/logo.png")} alt="Logo" />
+            <img src={require("../../assets/Logoo.png")} alt="Logo" />
           </div>
         </Link>
         <CgMenu

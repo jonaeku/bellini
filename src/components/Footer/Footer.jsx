@@ -11,7 +11,7 @@ const Footer = () => {
         <p className="middle">Öffnungszeiten <br /> Montag - Sonntag <br /> 9:30 - 20:00</p>
       </div>
       <div className="app__footer-logo">
-        <img src={require("../../assets/logo.png")} alt="Logo" />
+        <img src={require("../../assets/Logoo.png")} alt="Logo" />
       </div>
       <div className="app__footer-container">
         <p className="middle text verticalCenter">

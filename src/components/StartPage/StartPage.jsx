@@ -3,8 +3,8 @@ import "./StartPage.css";
 
 const StartPage = () => {
   return (
-    <div className="app__header app__wrapper section__padding">
-      <div className="app__wrapper_info">
+    <div className="app__header app__wrapper section__padding app__startPage">
+      <div className="app__wrapper_info app__wrapper_start">
         <h2 className="app__header-background">Eiscafé-Snackbar-Lounge</h2>
         <hr className="app__header-hr" />
         <h1 className="app__header-h1">

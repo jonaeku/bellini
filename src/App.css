@@ -53,6 +53,11 @@
   outline: none;
   cursor: pointer;
   border-radius: 25px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.custom__button:hover {
+  transform: translateY(-2px);
 }
 
 .app__hr {

@@ -9,7 +9,7 @@ const IceCream = () => {
         <hr className="app__hr"/>
       </div>
       <div className="app__iceCream-img">
-        <img className="app__iceCream-img" src={require("../../assets/EisKugeln.webp")} alt="header_img" />
+        <img className="app__iceCream-img" src={require("../../assets/EisKugeln.png")} alt="header_img" />
       </div>
     </div>
   );
