@@ -8,7 +8,7 @@ const Footer = () => {
     <div className="app__footer-wrapper">
       <div className="app__footer-container">
         <p>Bellini <br /> Frantzplatz <br /> 67487 Maikammer</p>
-        <p className="middle">Öffnungszeiten <br /> Montag - Sonntag <br /> 9:30 - 20:00</p>
+        <p className="middle">Öffnungszeiten <br /> Montag - Sonntag <br /> 9:30 - 21:00</p>
       </div>
       <div className="app__footer-logo">
         <img src={require("../../assets/Logoo.png")} alt="Logo" />
