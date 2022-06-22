@@ -2,7 +2,7 @@ import "./App.css";
 import Footer from "./components/Footer/Footer";
 import Navbar from "./components/Navbar/Navbar";
 
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route, Redirect } from "react-router-dom";
 import Main from "./components/Main";
 import WarmFood from "./components/Food/WarmFood";
 import IceFood from "./components/Food/IceFood";
@@ -30,7 +30,7 @@ function App() {
             marginLeft: "auto",
             position: "relative",
           }}
-          contentStyle={{ flex: "1 0 100px"}}
+          contentStyle={{ flex: "1 0 100px" }}
         >
           Diese Webiste verwendet Cookies 🍪
         </CookieConsent>
@@ -46,7 +46,7 @@ function App() {
           <Route path="/food/getraenkekarte" exact element={<DrinkFood />} />
           <Route path="/impressum" exact element={<Imprint />} />
           <Route path="/datenschutz" exact element={<Datenschutz />} />
-          <Route path="/maikammer" element={<Main />} />
+          <Route path="*" element={<Main />} />
         </Routes>
         <Footer />
       </div>
